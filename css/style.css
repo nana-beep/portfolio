@@ -17,9 +17,19 @@
         color: 	#000000;
         height: 500px; /* Parallax effect */
         text-align: right;
-        font-size: 50px;
+        font-size: 45px;
     }
 
+    #headerp{
+        font-size: 30px;
+    }
 
+    #mainheader{
+        font-size: 25px;
+    }
+
+    #teadef{
+        font-size: 22px;
+    }
 
 }
