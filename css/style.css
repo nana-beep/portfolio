@@ -99,6 +99,22 @@
     }
 
     h3{
-        
+        padding:10px;
+        font-size: 20px;
+        font-weight:bold;
+    }
+
+    #tag{
+        font-weight: normal;
+    }
+
+    #orititles{
+        font-size: 20px;
+        font-weight:bold;
+        text-align: center;
+    }
+
+    #oritext{
+        font-size: 16px;
     }
 }
