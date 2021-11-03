@@ -5,12 +5,16 @@
     }
 
     #main{
-        background: url('../images/coffee.jpg');
+        background: url('../images/tea.jpg');
         background-attachment: fixed;
         background-position: center; /* Parallax effect */
         background-size: cover; /* Parallax effect */
-        color: 	BC7B3B;
-        height: 400px; /* Parallax effect */
+        color: 	#000000;
+        height: 500px; /* Parallax effect */
+        text-align: right;
+        font-size: 50px;
     }
+
+
 
 }
