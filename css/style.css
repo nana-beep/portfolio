@@ -131,12 +131,13 @@
         float: left;
         height: 650px;
         width: 350px;
-        background:#ACE1AF;
+        background:#D0F0C0;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
       }
 
     .slide-wrapper {
         width: calc(350px * 7);
-        animation: slide 120s ease infinite;
+        animation: slide 60s ease infinite;
     }
     
     @keyframes slide {
@@ -183,81 +184,47 @@
         font-weight:bold;
         text-align: center;
         padding: 10px;
-        color: #282828;
+        color: #4B6F44;
     }
 
     #oritext{
         font-size: 16px;
         padding: 10px;
         margin:auto;
-        color: #282828;
+        color: 	#4B6F44;
     }
 
     #oritexttitle{
         text-align: center;
-        padding: 10px;
         text-decoration: underline;
-        color: #282828;
+        color: 	#4B6F44;
     }
 
     #mapi{
         filter: sepia(100%);
         padding-top: 40px;
-        width:100%;
     }
 
-
-    @keyframes teaicon{
-        0%{
-            transform:scale(0.95);
-
-        }
-        70% {
-            transform: scale(1.2);
-
-        }
-    
-        100% {
-            transform: scale(0.95);
-        }
+    #introtext{
+        padding:10px;
     }
 
-    #NorthAmerica{
-        animation-name:teaicon;
-        animation-duration:3s;
-        animation-duration: infinite;
-
-        position: relative;
-        width: 7%;
-        top:0%;
-        left: 16%;
+    #letters{
+        padding:10px;
+        text-align:center;
     }
 
-    #Europe{
-        position: relative;
-        width: 7%;
-        top:22%;
-        left: 47%;
+    #alphdef{
+        padding-left:10px;
+        padding-right:10px;
     }
 
-    #India{
-        position: relative;
-        width: 7%;
-        top:33%;
-        left: 65%;
+    #backtotop{
+        padding-left: 10px;
     }
+  
+    #teaassort{
+        padding:20px 10px 10px 10px;
 
-    #China{
-        position: relative;
-        width: 7%;
-        top:25%;
-        left: 72%;
-    }
-
-    #Japan{
-        position: relative;
-        width: 7%;
-        top:27%;
-        left: 81%;
     }
 }
