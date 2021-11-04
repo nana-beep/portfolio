@@ -1,9 +1,10 @@
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 800px){
     body{
         background-color: Ivory;
         font-family:'Courier New', Courier, monospace
     }
 
+    /*
     .skip a{
         background: white;
         left: 0;
@@ -19,7 +20,7 @@
         top:20px;
         color: black;
         text-decoration-style: solid;
-    }
+    }*/
 
     #back{
         margin-left:auto;
@@ -42,12 +43,49 @@
         text-decoration: none;
     }
 
-    #navbar li{
+    #home a:focus{
+        color:#ACE1AF;
+        text-decoration: underline;
+        -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+    }
+    
+    #home a:visited{
         color:#5F8575;
-        text-decoration: none;
+        text-decoration: underline;
+        -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
         padding-top: 10px;
         padding-right: 15px;
     }
+
+    #navbar li{
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+
+    #navbar li a{
+        color:#5F8575;
+    }
+
+    #navbar li a:focus{
+        color:#ACE1AF;
+        text-decoration: underline;
+        -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+
+    #navbar li a:visited{
+        color:#5F8575;
+        text-decoration: underline;
+        -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+
 
     #main{
         display: grid;
@@ -74,8 +112,6 @@
         grid-row: 3 / span 1;
         grid-column: 3 / span 2;
         font-size: 27px;
-
-        
     }
 
     #skip{
@@ -227,4 +263,6 @@
         padding:20px 10px 10px 10px;
 
     }
+
+
 }
