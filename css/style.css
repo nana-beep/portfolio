@@ -350,4 +350,8 @@
     #mark{
         padding-top: 20px;
     }
+
+    #sidenote #brit{
+        list-style-type: none;
+    }
 }
