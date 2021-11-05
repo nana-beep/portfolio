@@ -96,7 +96,7 @@
         background-attachment: fixed;
         background-position: center; /* Parallax effect */
         background-size: cover; /* Parallax effect */
-        color:	#FFFFFF;
+        color:	#000000;
         height: 500px; /* Parallax effect */
         text-align: center;
     }
