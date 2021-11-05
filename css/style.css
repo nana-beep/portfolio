@@ -39,7 +39,7 @@
     #home{
         padding-top: 10px;
         padding-left:10px;
-        color: #355E3B;
+        color: #01411C;
         text-decoration: none;
     }
 
@@ -51,7 +51,7 @@
     }
     
     #home a:visited{
-        color:#355E3B;
+        color:#01411C;
         text-decoration: underline;
         -webkit-text-decoration-style: dotted;
             text-decoration-style: dotted;
@@ -65,7 +65,7 @@
     }
 
     #navbar li a{
-        color:#355E3B;
+        color:#01411C;
     }
 
     #navbar li a:focus{
@@ -78,7 +78,7 @@
     }
 
     #navbar li a:visited{
-        color:#5F8575;
+        color:#01411C;
         text-decoration: underline;
         -webkit-text-decoration-style: dotted;
             text-decoration-style: dotted;
