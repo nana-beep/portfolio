@@ -248,6 +248,13 @@
     #letters{
         padding:10px;
         text-align:center;
+        color: #5F8575;
+    }
+
+    #letters a:visited{
+        padding:10px;
+        text-align:center;
+        color: #5F8575;
     }
 
     #alphdef{
@@ -257,12 +264,89 @@
 
     #backtotop{
         padding-left: 10px;
+        color: #5F8575;
+    }
+
+    #backtotop a:visited{
+        padding-left: 10px;
+        color: #5F8575;
     }
   
     #teaassort{
         padding:20px 10px 10px 10px;
-
     }
 
+    .slide1 {
+        float: left;
+        height: 350px;
+        width: 350px;
+        background:#D0F0C0;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+      }
 
+    .slide-wrapper1 {
+        width: calc(350px * 5);
+        animation: slide 30s ease;
+    }
+    
+    @keyframes slide1 {
+        0% {
+            margin-left: 0px;
+        }
+         
+        20% {
+            margin-left: calc(-350px * 1);
+        }
+         
+        40% {
+            margin-left: calc(-350px * 2);
+        }
+
+        60% {
+            margin-left: calc(-350px * 3);
+        }
+         
+        80% {
+            margin-left: calc(-350px * 4);
+        }
+    }
+
+    #teas{
+        padding:10px;
+    }
+
+    #section{
+        padding:20px 10px 10px 10px;
+        font-weight:bold;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #pritea{
+        padding:10px;
+    }
+
+    #captions{
+        font-size:20px;
+        text-align:center;
+    }
+
+    #description{
+        padding:10px;
+    }
+
+    #questions{
+        padding:10px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #answers{
+        padding:5px;
+    }
+
+    #mark{
+        padding-top: 20px;
+    }
 }
