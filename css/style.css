@@ -28,7 +28,7 @@
 
     #navbar{
         position:relative;
-        padding: 10x;
+        padding: 10px;
         color:#01411C;
         text-decoration: none;
         display: flex;
@@ -46,15 +46,13 @@
     #home a:focus{
         color:#ACE1AF;
         text-decoration: underline;
-        -webkit-text-decoration-style: dotted;
-            text-decoration-style: dotted;
+        text-decoration-style: dotted;
     }
     
     #home a:visited{
         color:#01411C;
         text-decoration: underline;
-        -webkit-text-decoration-style: dotted;
-            text-decoration-style: dotted;
+        text-decoration-style: dotted;
         padding-top: 10px;
         padding-right: 15px;
     }
