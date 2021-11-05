@@ -88,7 +88,7 @@
     }
 
 
-    #main{
+    #mainspace{
         display: grid;
         grid-template-rows: repeat(5, auto);
         grid-template-columns: 1fr 1fr 1fr 1fr; 
