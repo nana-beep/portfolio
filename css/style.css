@@ -248,13 +248,13 @@
     #letters{
         padding:10px;
         text-align:center;
-        color: #5F8575;
+        color:#01411C;
     }
 
     #letters a:visited{
         padding:10px;
         text-align:center;
-        color: #5F8575;
+        color:#01411C;
     }
 
     #alphdef{
@@ -264,12 +264,12 @@
 
     #backtotop{
         padding-left: 10px;
-        color: #5F8575;
+        color:#01411C;
     }
 
     #backtotop a:visited{
         padding-left: 10px;
-        color: #5F8575;
+        color:#01411C;
     }
   
     #teaassort{
