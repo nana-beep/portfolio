@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media only screen and (min-width: 850px){
     body{
         background-color: Ivory;
         font-family:'Courier New', Courier, monospace
@@ -224,14 +224,14 @@
         color: #4B6F44;
     }
 
-    #oritext{
+    .oritext{
         font-size: 16px;
         padding: 10px;
         margin:auto;
         color: 	#4B6F44;
     }
 
-    #oritexttitle{
+    .oritexttitle{
         text-align: center;
         text-decoration: underline;
         color: 	#4B6F44;
@@ -258,12 +258,12 @@
         color:#01411C;
     }
 
-    #alphdef{
+    .alphdef{
         padding-left:10px;
         padding-right:10px;
     }
 
-    #backtotop{
+    .backtotop{
         padding-left: 10px;
         color:#01411C;
     }
@@ -312,38 +312,38 @@
         }
     }
 
-    #teas{
+    .teas{
         padding:10px;
     }
 
-    #section{
+    .section{
         padding:20px 10px 10px 10px;
         font-weight:bold;
         font-size: 25px;
         text-align: center;
     }
 
-    #pritea{
+    .pritea{
         padding:10px;
     }
 
-    #captions{
+    .captions{
         font-size:20px;
         text-align:center;
     }
 
-    #description{
+    .description{
         padding:10px;
     }
 
-    #questions{
+    .questions{
         padding:10px;
         font-size: 20px;
         font-weight: bold;
         text-align: center;
     }
 
-    #answers{
+    .answers{
         padding:5px;
     }
 
@@ -351,7 +351,13 @@
         padding-top: 20px;
     }
 
-    #sidenote,#brit{
+    .sidenote,.brit{
         list-style-type: none;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .slide, .slide1{
+      animation: none;
+    }
+  }
