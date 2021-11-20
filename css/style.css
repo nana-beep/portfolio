@@ -84,11 +84,7 @@
         padding-right: 15px;
     }
 
-
     #mainspace{
-        display: grid;
-        grid-template-rows: repeat(5, auto);
-        grid-template-columns: repeat(5, auto); 
         background: url('../images/tea.jpg');
         background-attachment: fixed;
         background-position: center; /* Parallax effect */
@@ -99,18 +95,12 @@
     
     #headerh{
         position:relative;
-        grid-row: 3 / span 1;
-        grid-column: 2 / span 2;
         font-size: 50px;
         color:	#321414;
-        justify-items: center;
-
     }
 
     #headerp{
         position:relative;
-        grid-row: 4 / span 1;
-        grid-column: 2 / span 2;
         font-size: 27px;
         color:	#321414;
     }
@@ -315,6 +305,14 @@
     .teas{
         padding:10px;
     }
+
+    .container{
+        display: grid;
+        grid-template-rows: repeat(10, auto);
+        grid-template-columns: repeat(3, auto); 
+    }
+
+    
 
     .section{
         padding:20px 10px 10px 10px;
