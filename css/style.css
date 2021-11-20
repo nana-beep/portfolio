@@ -1,26 +1,13 @@
-@media only screen and (min-width: 850px){
+@media only screen and (min-width:768px){
+
+
+
+}
+@media only screen and (min-width: 320px){
     body{
         background-color: Ivory;
         font-family:'Courier New', Courier, monospace
     }
-
-    /*
-    .skip a{
-        background: white;
-        left: 0;
-        padding: 6px;
-        position: absolute;
-        top: -40px;
-        -webkit-transition: top 1s ease-out;
-        transition: top 1s ease-out;
-        z-index: 1;
-    }
-      
-    .skip a:focus{
-        top:20px;
-        color: black;
-        text-decoration-style: solid;
-    }*/
 
     #back{
         margin-left:auto;
@@ -165,6 +152,7 @@
     .slide-wrapper {
         width: calc(350px * 7);
         animation: slide 60s ease infinite;
+        overflow: hidden;
     }
     
     @keyframes slide {
@@ -273,32 +261,39 @@
         width: 350px;
         background:#D0F0C0;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+        overflow: hidden;
       }
 
     .slide-wrapper1 {
         width: calc(350px * 5);
         animation: slide 30s ease;
+        overflow: hidden;
     }
     
     @keyframes slide1 {
         0% {
             margin-left: 0px;
+            overflow: hidden;
         }
          
         20% {
             margin-left: calc(-350px * 1);
+            overflow: hidden;
         }
          
         40% {
             margin-left: calc(-350px * 2);
+            overflow: hidden;
         }
 
         60% {
             margin-left: calc(-350px * 3);
+            overflow: hidden;
         }
          
         80% {
             margin-left: calc(-350px * 4);
+            overflow: hidden;
         }
     }
 
@@ -312,7 +307,17 @@
         grid-template-columns: repeat(3, auto); 
     }
 
-    
+    .one{
+        grid-row-gap: 15px;
+        grid-row: 1 / span 1;
+    }
+
+    .two{
+        grid-row-gap: 15px;
+        grid-row: 1 / span 1;
+    }
+
+
 
     .section{
         padding:20px 10px 10px 10px;
