@@ -26,8 +26,61 @@
     </ul>
   </nav>
 
-  <main class = "container">
+  
 
+  <h1 class = "section" id = "benefits">Primary Types of Tea</h1>
+  <p class = "pritea">&emsp;Although each type of tea has its own benefits, a few examples are:</p><br/>
+    
+    <div id = "slideshow1">
+          <div class = "slide1">
+              <p class = "teas"><u>Green:</u> Can improve brain function and promote weight loss</p>
+              <img src = "images/green.png" alt = "Green Tea" width = 100%>
+          </div>
+  
+          <div class = "slide1">
+              <p class = "teas"><u>White:</u> Helps with anti-aging and reduces risk of cancer</p>
+              <img src = "images/white.png" alt = "White Tea" width = 100%>
+          </div>
+  
+          <div class = "slide1">
+              <p class = "teas"><u>Black:</u> Helps reduce plaque</p>
+              <img src = "images/blacktea.png" alt = "Black Tea" width = 100%>
+          </div>
+  
+          <div class = "slide1">
+              <p class = "teas"><u>Chai:</u> Is full of antioxidants and helps with inflammation</p>
+              <img src = "images/chaitea.png" alt = "Chai Tea" width = 100%>
+          </div>
+  
+          <div class = "slide1">
+              <p class = "teas"><u>Matcha:</u> Helps boost metabolism and reduce cancer cells</p>
+              <img src = "images/matcha.png" alt = "Matcha" width = 100%>
+          </div>
+    <button class="left_ben" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="right_ben" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+
+<main class = "container">
   <h1 class = "section">Benefits of Tea </h1>
   <p class = "pritea">&emsp;Tea has many benefits overall, but the top ten benefits are:</p>
       <ul>
@@ -85,38 +138,6 @@
       </ul>
 
             
-  <h1 class = "section">Primary Types of Tea</h1>
-  <p class = "pritea">&emsp;Although each type of tea has its own benefits, a few examples are:</p><br/>
-  
-  <div id = "slideshow1">
-    <div class ="slide-wrapper1">
-        <div class = "slide1">
-            <p class = "teas"><u>Green:</u> Can improve brain function and promote weight loss</p>
-            <img src = "images/green.png" alt = "Green Tea" width = 100%>
-        </div>
-
-        <div class = "slide1">
-            <p class = "teas"><u>White:</u> Helps with anti-aging and reduces risk of cancer</p>
-            <img src = "images/white.png" alt = "White Tea" width = 100%>
-        </div>
-
-        <div class = "slide1">
-            <p class = "teas"><u>Black:</u> Helps reduce plaque</p>
-            <img src = "images/blacktea.png" alt = "Black Tea" width = 100%>
-        </div>
-
-        <div class = "slide1">
-            <p class = "teas"><u>Chai:</u> Is full of antioxidants and helps with inflammation</p>
-            <img src = "images/chaitea.png" alt = "Chai Tea" width = 100%>
-        </div>
-
-        <div class = "slide1">
-            <p class = "teas"><u>Matcha:</u> Helps boost metabolism and reduce cancer cells</p>
-            <img src = "images/matcha.png" alt = "Matcha" width = 100%>
-        </div>
-    </div>
-  </div>
-
     </main>
   <footer>
     <p>&copy; Jina Kim - SI 339 Portfolio Fall 2021</p>
