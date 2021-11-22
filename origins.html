@@ -32,7 +32,6 @@
    <br>
 
    <div id = "slideshow">
-     <div class ="slide-wrapper">
        <div class = "slide">
           <h1 class = "slide-number"> Ancient China: The Birthplace of Tea</h1>
           <p class = "oritext">&emsp;History of Tea: Chinese Symbol for Tea, Ch'aThe history of tea dates back to ancient China, almost 5,000 years ago. According to legend, in 2732 B.C. Emperor Shen Nung discovered tea when leaves from a wild tree blew into his pot of boiling water. He was immediately interested in the pleasant scent of the resulting brew, and drank some. Legend says the Emperor described a warm feeling as he drank the intriguing brew, as if the liquid was investigating every part of his body.</p>
@@ -83,8 +82,29 @@
   
           <br>
         </div>
+  <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="right" onclick="plusDivs(1)">&#10095;</button>
 </div>
-</div>
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
 </main>
 <footer>
   <p>&copy; Jina Kim - SI 339 Portfolio Fall 2021</p>

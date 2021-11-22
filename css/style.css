@@ -17,6 +17,15 @@
         text-decoration-style: solid;
     }
 
+    #slideshow{
+        height: 700px;
+        width: 400px;
+    }
+
+    .slide {
+        height: 650px;
+        width: 400px;
+      }
 
 }
 @media only screen and (min-width: 320px){
@@ -57,6 +66,7 @@
         text-decoration-style: dotted;
         padding-top: 10px;
         padding-right: 15px;
+        border: solid #01411C;
     }
 
     #home a:focus{
@@ -152,7 +162,7 @@
         background-color: #59290D;
         color: white;
         padding:20px;
-        text-align:center;
+        text-align: center;
         width: 100%;
     }
 
@@ -165,59 +175,32 @@
     #slideshow{
         padding-top:30px;
         overflow: hidden;
-        height: 700px;
-        width: 350px;
-        margin: 0 auto;
+        height: 730px;
     }
 
     .slide {
         float: left;
-        height: 650px;
-        width: 350px;
+        height: 730px;
         background:#D0F0C0;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
       }
 
-    .slide-wrapper {
-        width: calc(350px * 7);
-        animation: slide 60s ease infinite;
-        overflow: hidden;
-    }
-    
-    @keyframes slide {
-        12.5% {
-            margin-left: 0px;
-        }
-         
-        25% {
-            margin-left: calc(-350px * 1);
-        }
-         
-        37.5% {
-            margin-left: calc(-350px * 2);
-        }
+      .left{
+        color: #4B6F44;
+        position: absolute;
+        top: 100%;
+        left: 5%;
+        font-size: 20px;
+      }
 
-        50% {
-            margin-left: calc(-350px * 3);
-        }
-         
-        62.5% {
-            margin-left: calc(-350px * 4);
-        }
-
-        75% {
-            margin-left: calc(-350px * 5);
-        }
-
-        87.5% {
-            margin-left: calc(-350px * 6);
-        }
-
-        100% {
-            margin-left: 0;
-        }
-    }
-
+      .right{
+        color: #4B6F44;
+        position: absolute;
+        top: 100%;
+        left: 90%;
+        font-size: 20px;
+        
+      }
 
     #tag{
         font-weight: normal;
@@ -234,8 +217,10 @@
     .oritext{
         font-size: 16px;
         padding: 10px;
-        margin:auto;
+        margin-left: 50px;
+        margin-right: 50px;
         color: 	#4B6F44;
+        text-align: left;
     }
 
     .oritexttitle{
@@ -247,6 +232,7 @@
     #mapi{
         filter: sepia(100%);
         padding-top: 40px;
+        margin: auto;
     }
 
     #introtext{
@@ -389,7 +375,5 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .slide, .slide1{
-      animation: none;
-    }
+    
   }
