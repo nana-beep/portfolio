@@ -9,6 +9,7 @@
         transition: top 1s ease-out;
         z-index: 1;
     }
+
       
     .skip a:focus{
         top:20px; 
@@ -21,7 +22,7 @@
 @media only screen and (min-width: 320px){
     body{
         background-color: Ivory;
-        font-family:'Courier New', Courier, monospace
+        font-family:'Titillium Web', Courier, monospace
     }
 
     #back{
