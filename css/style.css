@@ -159,6 +159,7 @@
     }
 
     .slide {
+        padding-top:10px;
         float: left;
         height: 830px;
         background:#D0F0C0;
