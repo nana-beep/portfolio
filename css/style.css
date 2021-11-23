@@ -287,8 +287,8 @@
         top: 70%;
         left: 85%;
         font-size: 50px;
-        
       }
+
     .teas{
         padding:10px;
         font-size: 20px;
@@ -301,7 +301,6 @@
 
     .one{
         grid-row-gap: 15px;
-        grid-row: 1;
         background-color:#CFBB99;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
         
@@ -309,13 +308,11 @@
 
     .two{
         grid-row-gap: 15px;
-        grid-row: 2;
         background-color: #FFF0D6;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
     .three{
         grid-row-gap: 15px;
-        grid-row: 3;
         background-color:#CFBB99;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
         
@@ -323,14 +320,12 @@
 
     .four{
         grid-row-gap: 15px;
-        grid-row: 4;
         background-color: #FFF0D6;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
     .five{
         grid-row-gap: 15px;
-        grid-row: 5;
         background-color:#CFBB99;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
         
@@ -338,14 +333,12 @@
 
     .six{
         grid-row-gap: 15px;
-        grid-row: 6;
         background-color: #FFF0D6;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
     .seven{
         grid-row-gap: 15px;
-        grid-row: 7;
         background-color:#CFBB99;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
         
@@ -353,14 +346,12 @@
 
     .eight{
         grid-row-gap: 15px;
-        grid-row: 8;
         background-color: #FFF0D6;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
     .nine{
         grid-row-gap: 15px;
-        grid-row: 9;
         background-color:#CFBB99;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
         
@@ -368,12 +359,9 @@
 
     .ten{
         grid-row-gap: 15px;
-        grid-row: 10;
         background-color: #FFF0D6;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
-
-
 
     .section{
         padding:20px 10px 10px 10px;
@@ -384,6 +372,7 @@
 
     .pritea{
         padding:10px;
+        text-align: center;
     }
 
     .captions{
@@ -426,12 +415,24 @@
         transition: top 1s ease-out;
         z-index: 1;
     }
-
-      
     .skip a:focus{
         top:20px; 
         color: #01411C;
         text-decoration-style: solid;
+    }
+
+    #navbar li{
+        padding-top: 10px;
+        padding-right: 15px;
+        color:#01411C;
+        width: 23%;
+        text-align: center;
+    }
+
+    #navbar li a{
+        color:#01411C;
+        width: 23%;
+        text-align: center;
     }
 
     .slideshow{
@@ -466,21 +467,70 @@
       .oritext{
         margin-left: 60px;
         margin-right: 60px;
-
     }
-        
-        #navbar li{
-            padding-top: 10px;
-            padding-right: 15px;
-            color:#01411C;
-            width: 23%;
-            text-align: center;
-        }
-    
-        #navbar li a{
-            color:#01411C;
-            width: 23%;
-            text-align: center;
-        }
 
+    .slideshow1{
+        padding-top:30px;
+        overflow: hidden;
+        height: 600px;
+        width: 100%;
+    }
+
+    .slide1 {
+        float: left;
+        height: 600px;
+        width: 100%;
+        background:#D0F0C0;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+      }
+
+      .left_ben{
+        color: #4B6F44;
+        position: absolute;
+        top: 70%;
+        left: 3%;
+        font-size: 50px;
+      }
+
+      .right_ben{
+        color: #4B6F44;
+        position: absolute;
+        top: 70%;
+        left: 85%;
+        font-size: 50px;
+      }
+
+      .teas{
+        padding:20px;
+        font-size:25px;
+        text-align: center;
+      }
+
+      .teapic{
+        padding-top: 20px;
+        margin-left: 18%;
+        margin-right: 18%;
+      }
+
+      .whiteteapic{
+        padding-top: 20px;
+        margin-left: 8%;
+        margin-right: 8%;
+      }
+
+      .chaiteapic{
+        padding-top: 20px;
+        margin-left: 23%;
+        margin-right: 23%;
+      }
+
+      .matchateapic{
+        padding-top: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+      }
+
+}
+
+@media only screen and (min-width:1366px){
 }
