@@ -45,8 +45,6 @@
     
     #home a:visited{
         color:#01411C;
-        text-decoration: underline;
-        text-decoration-style: dotted;
         padding-top: 10px;
         padding-right: 15px;
         outline: solid #01411C;
@@ -72,9 +70,6 @@
 
     #navbar li a:visited{
         color:#01411C;
-        text-decoration: underline;
-        -webkit-text-decoration-style: dotted;
-            text-decoration-style: dotted;
         padding-top: 10px;
         padding-right: 15px;
         outline: solid #01411C;
