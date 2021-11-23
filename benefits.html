@@ -26,8 +26,7 @@
     </ul>
   </nav>
 
-  
-
+  <main>
   <h1 class = "section" id = "benefits">Primary Types of Tea</h1>
   <p class = "pritea">&emsp;Although each type of tea has its own benefits, a few examples are:</p><br/>
     
@@ -56,8 +55,9 @@
               <p class = "teas"><u>Matcha:</u> Helps boost metabolism and reduce cancer cells</p>
               <img src = "images/matcha.png" alt = "Matcha" width = 100%>
           </div>
-    <button class="left_ben" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="right_ben" onclick="plusDivs(1)">&#10095;</button>
+
+        <button class="left_ben" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="right_ben" onclick="plusDivs(1)">&#10095;</button>
     </div>
 
     <script>
@@ -70,7 +70,7 @@
         
         function showDivs(n) {
           var i;
-          var x = document.getElementsByClassName("mySlides");
+          var x = document.getElementsByClassName("slide1");
           if (n > x.length) {slideIndex = 1}
           if (n < 1) {slideIndex = x.length}
           for (i = 0; i < x.length; i++) {
@@ -80,10 +80,12 @@
         }
     </script>
 
-<main class = "container">
+
   <h1 class = "section">Benefits of Tea </h1>
   <p class = "pritea">&emsp;Tea has many benefits overall, but the top ten benefits are:</p>
-      <ul>
+  
+  <div class = "benefits_list">  
+  <ul>
         <div class = "one">
             <li><br/><h2 class = "captions">Tea contains antioxidants</h2> <br/>
                 <p class = "description">&emsp;Antioxidants work to prevent the body’s version of rust and thus help to keep us young and protect us from damage from pollution. Load up on antioxidants with a white tea, which is less processed than black or green tea so it retains more beneficial antioxidants.</p>
@@ -137,7 +139,7 @@
         </div>
       </ul>
 
-            
+    </div>         
     </main>
   <footer>
     <p>&copy; Jina Kim - SI 339 Portfolio Fall 2021</p>
