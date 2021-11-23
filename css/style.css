@@ -75,6 +75,11 @@
         outline: solid #01411C;
     }
 
+    .name{
+        padding: 10px;
+        font-size: 20px;
+    }
+
     #mainspace{
         background: url('../images/tea.jpg');
         background-attachment: fixed;
@@ -208,7 +213,7 @@
         margin: auto;
     }
 
-    #introtext{
+    .introtext{
         padding:10px;
     }
 
