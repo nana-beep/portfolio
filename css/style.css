@@ -55,17 +55,12 @@
         border: solid #01411C;
     }
 
-    #home a:focus{
-        border: solid #01411C;
-    }
-
     #navbar li{
         padding-top: 10px;
         padding-right: 15px;
         color:#01411C;
         width: 23%;
         text-align: center;
-        
     }
 
     #navbar li a{
@@ -78,15 +73,6 @@
         border: solid #01411C;
     }
 
-    #navbar li a:focus{
-        color:#ACE1AF;
-        text-decoration: underline;
-        -webkit-text-decoration-style: dotted;
-            text-decoration-style: dotted;
-        padding-top: 10px;
-        padding-right: 15px;
-    }
-
     #navbar li a:visited{
         color:#01411C;
         text-decoration: underline;
@@ -94,6 +80,7 @@
             text-decoration-style: dotted;
         padding-top: 10px;
         padding-right: 15px;
+        border: solid #01411C;
     }
 
     #mainspace{
