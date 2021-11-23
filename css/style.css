@@ -1,53 +1,4 @@
-@media only screen and (min-width:768px){
-    .skip a{
-        background: white;
-        left: 0;
-        padding: 6px;
-        position: absolute;
-        top: -50px;
-        -webkit-transition: top 1s ease-out;
-        transition: top 1s ease-out;
-        z-index: 1;
-    }
 
-      
-    .skip a:focus{
-        top:20px; 
-        color: #01411C;
-        text-decoration-style: solid;
-    }
-
-    #slideshow{
-        padding-top:30px;
-        overflow: hidden;
-        height: 600px;
-    }
-
-    .slide {
-        float: left;
-        height: 600px;
-        background:#D0F0C0;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-    }
-
-      .left{
-        color: #4B6F44;
-        position: absolute;
-        top: 150%;
-        left: 5%;
-        font-size: 20px;
-      }
-
-      .right{
-        color: #4B6F44;
-        position: absolute;
-        top: 150%;
-        left: 90%;
-        font-size: 20px;
-        
-    }
-
-}
 @media only screen and (min-width: 320px){
     body{
         background-color: Ivory;
@@ -111,10 +62,14 @@
         padding-top: 10px;
         padding-right: 15px;
         color:#01411C;
+        width: 23%;
+        text-align: center;
     }
 
     #navbar li a{
         color:#01411C;
+        width: 23%;
+        text-align: center;
     }
 
     #navbar li a:active{
@@ -207,15 +162,15 @@
         font-weight:bold;
     }
 
-    #slideshow{
+    .slideshow{
         padding-top:30px;
         overflow: hidden;
-        height: 730px;
+        height: 830px;
     }
 
     .slide {
         float: left;
-        height: 730px;
+        height: 830px;
         background:#D0F0C0;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
       }
@@ -223,17 +178,17 @@
       .left{
         color: #4B6F44;
         position: absolute;
-        top: 100%;
-        left: 5%;
-        font-size: 20px;
+        top: 120%;
+        left: 3%;
+        font-size:50px;
       }
 
       .right{
         color: #4B6F44;
         position: absolute;
-        top: 100%;
-        left: 90%;
-        font-size: 20px;
+        top: 120%;
+        left: 85%;
+        font-size: 50px;
         
       }
 
@@ -296,7 +251,7 @@
         color:#01411C;
     }
 
-    #backtotop a:visited{
+    .backtotop a:visited{
         padding-left: 10px;
         color:#01411C;
     }
@@ -305,7 +260,7 @@
         padding:20px 10px 10px 10px;
     }
 
-    #slideshow1{
+    .slideshow1{
         padding-top:30px;
         overflow: hidden;
         height: 500px;
@@ -321,17 +276,17 @@
       .left_ben{
         color: #4B6F44;
         position: absolute;
-        top: 65%;
-        left: 5%;
-        font-size: 20px;
+        top: 70%;
+        left: 3%;
+        font-size: 50px;
       }
 
       .right_ben{
         color: #4B6F44;
         position: absolute;
-        top: 65%;
-        left: 90%;
-        font-size: 20px;
+        top: 70%;
+        left: 85%;
+        font-size: 50px;
         
       }
     .teas{
@@ -460,6 +415,72 @@
     }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media only screen and (min-width:768px){
+    .skip a{
+        background: white;
+        left: 0;
+        padding: 6px;
+        position: absolute;
+        top: -50px;
+        -webkit-transition: top 1s ease-out;
+        transition: top 1s ease-out;
+        z-index: 1;
+    }
+
+      
+    .skip a:focus{
+        top:20px; 
+        color: #01411C;
+        text-decoration-style: solid;
+    }
+
+    .slideshow{
+        padding-top:30px;
+        overflow: hidden;
+        height: 500px;
+    }
+
+    .slide {
+        float: left;
+        height: 500px;
+        background:#D0F0C0;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+
+      .left{
+        color: #4B6F44;
+        position: absolute;
+        top: 125%;
+        left: 1%;
+        font-size: 50px;
+      }
+
+      .right{
+        color: #4B6F44;
+        position: absolute;
+        top: 125%;
+        left: 94%;
+        font-size: 50px;
+      }
+
+      .oritext{
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+        
+        #navbar li{
+            padding-top: 10px;
+            padding-right: 15px;
+            color:#01411C;
+            width: 23%;
+            text-align: center;
+        }
     
-  }
+        #navbar li a{
+            color:#01411C;
+            width: 23%;
+            text-align: center;
+        }
+
+}
