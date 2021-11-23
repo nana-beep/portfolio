@@ -37,6 +37,7 @@
         padding-left:10px;
         color: #01411C;
         text-decoration: none;
+        
     }
 
     #home a:focus{
@@ -64,6 +65,7 @@
         color:#01411C;
         width: 23%;
         text-align: center;
+        
     }
 
     #navbar li a{
@@ -406,6 +408,11 @@
 }
 
 @media only screen and (min-width:768px){
+
+    #home{
+        font-size:20px;
+    }
+
     .skip a{
         background: white;
         left: 0;
@@ -428,6 +435,7 @@
         color:#01411C;
         width: 23%;
         text-align: center;
+        font-size:20px;
     }
 
     #navbar li a{
