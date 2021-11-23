@@ -43,7 +43,7 @@
         text-decoration-style: dotted;
     }
     
-    #home a:visited{
+    #home:visited{
         color:#01411C;
         padding-top: 10px;
         padding-right: 15px;
