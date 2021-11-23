@@ -38,7 +38,7 @@
     }
 
     #home a:focus{
-        color:#ACE1AF;
+        color:#01411C;
         text-decoration: underline;
         text-decoration-style: dotted;
     }
@@ -66,6 +66,7 @@
 
     #navbar li a:active{
         border: solid #01411C;
+        color:#01411C;
     }
 
     #navbar li a:visited{
@@ -78,6 +79,8 @@
     .name{
         padding: 10px;
         font-size: 20px;
+        text-align: center;
+        font-weight: bold;
     }
 
     #mainspace{
@@ -277,10 +280,35 @@
         font-size: 50px;
       }
 
-    .teas{
-        padding:10px;
-        font-size: 20px;
-    }
+      .teas{
+        padding:20px;
+        font-size:25px;
+        text-align: center;
+      }
+
+      .teapic{
+        padding-top: 20px;
+        margin-left: 18%;
+        margin-right:18%;
+      }
+
+      .whiteteapic{
+        padding-top: 20px;
+        margin-left: 8%;
+        margin-right: 8%;
+      }
+
+      .chaiteapic{
+        padding-top: 20px;
+        margin-left: 23%;
+        margin-right: 23%;
+      }
+
+      .matchateapic{
+        padding-top: 20px;
+        margin-left: 16%;
+        margin-right: 16%;
+      }
 
     .benefits_list{
         display: grid;
@@ -401,6 +429,13 @@
 
     #home{
         font-size:20px;
+    }
+
+    .name{
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
     }
 
     .skip a{
