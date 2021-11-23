@@ -405,6 +405,11 @@
     .sidenote,.brit{
         list-style-type: none;
     }
+
+    .faqsdivider{
+        background-color:#FFF0D6;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);background-color: #CFBB99;
+    }
 }
 
 @media only screen and (min-width:768px){
