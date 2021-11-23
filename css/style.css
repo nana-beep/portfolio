@@ -341,18 +341,81 @@
 
     .benefits_list{
         display: grid;
-        grid-template-rows: repeat(10, auto);
-        grid-template-columns: repeat(3, auto); 
+        grid-template-rows: repeat(10, auto);        
     }
 
     .one{
         grid-row-gap: 15px;
+        grid-row: 1;
+        background-color:#CFBB99;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
         
     }
 
     .two{
         grid-row-gap: 15px;
-    
+        grid-row: 2;
+        background-color: #FFF0D6;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+    .three{
+        grid-row-gap: 15px;
+        grid-row: 3;
+        background-color:#CFBB99;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+        
+    }
+
+    .four{
+        grid-row-gap: 15px;
+        grid-row: 4;
+        background-color: #FFF0D6;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+
+    .five{
+        grid-row-gap: 15px;
+        grid-row: 5;
+        background-color:#CFBB99;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+        
+    }
+
+    .six{
+        grid-row-gap: 15px;
+        grid-row: 6;
+        background-color: #FFF0D6;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+
+    .seven{
+        grid-row-gap: 15px;
+        grid-row: 7;
+        background-color:#CFBB99;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+        
+    }
+
+    .eight{
+        grid-row-gap: 15px;
+        grid-row: 8;
+        background-color: #FFF0D6;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+
+    .nine{
+        grid-row-gap: 15px;
+        grid-row: 9;
+        background-color:#CFBB99;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+        
+    }
+
+    .ten{
+        grid-row-gap: 15px;
+        grid-row: 10;
+        background-color: #FFF0D6;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
 
