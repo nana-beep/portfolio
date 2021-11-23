@@ -139,12 +139,13 @@
         text-align: center;
     }
 
-    ol{
+    #defs{
         margin:auto;
         padding:30px;
+        list-style-type: square;
     }
  
-    ol > li{
+    ul > li{
         padding:10px 30px;
     }
 
