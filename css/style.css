@@ -227,15 +227,18 @@
 
     .alphdef{
         font-size:10x;
+        padding-left:20px;
     }
 
     .backtotop{
         font-size: 15px;
+        padding-left:20px;
     }
 
     .terms{
-        padding: 10px;
+        padding-left: 20px;
         font-size:30px;
+        
     }
 
     #letters a{
@@ -248,11 +251,6 @@
         padding:10px;
         text-align:center;
         color:#01411C;
-    }
-
-    .alphdef{
-        padding-left:10px;
-        padding-right:10px;
     }
 
     .backtotop{
@@ -276,12 +274,12 @@
     .slideshow1{
         padding-top:30px;
         overflow: hidden;
-        height: 350px;
+        height: 400px;
     }
 
     .slide1 {
         float: left;
-        height: 350px;
+        height: 400px;
         background:#D0F0C0;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
       }
@@ -298,7 +296,7 @@
         color: #4B6F44;
         position: absolute;
         top: 70%;
-        left: 85%;
+        left: 90%;
         font-size: 50px;
       }
 
@@ -312,8 +310,14 @@
         padding-top: 20px;
         display: block;
         margin: auto;
-        position: absolute;
+        width: 40%;
       }
+
+      #teaimg{
+        display: block;
+        margin: auto;
+        width: 70%;
+    }
 
     .benefits_list{
         display: grid;
@@ -443,6 +447,10 @@
         z-index: 1;
     }
 
+    #teaimg{
+        width: 50%;
+    }
+
     #navbar li{
         font-size:20px;
     }
@@ -488,19 +496,17 @@
     }
 
     .terms{
-        padding: 10px;
         font-size:30px;
     }
 
-
     .slideshow1{
         width: 100%;
-        height: 500px;
+        height: 700px;
     }
 
     .slide1 {
         width: 100%;
-        height: 500px;
+        height: 700px;
       }
 
       .faqsdivider{
@@ -534,6 +540,20 @@
     .two, .three, .six, .seven, .ten{
         background-color: #FFF0D6;
     }
+
+    .teapic{
+        width: 50%;
+    }
+
+    .left_ben{
+        top: 90%;
+        left: 3%;
+      }
+
+      .right_ben{
+        top: 90%;
+        left: 92%;
+      }
 
 }
 
@@ -624,32 +644,32 @@
     }
 
     .terms{
-        padding: 10px;
         font-size:40px;
     }
 
     #teaimg{
-        display: block;
-        margin: auto;
         width: 25%;
     }
+    
 
     .left_ben{
-        top: 90%;
+        top: 93%;
         left: 10%;
+        font-size:70px;
     }
 
     .right_ben{
-        top: 90%;
+        top: 93%;
         left: 85%;
+        font-size: 70px;
     }
 
     .slide1{
-        height: 800px;
+        height: 900px;
     }
 
     .slideshow1{
-        height: 800px;
+        height: 900px;
     }
 
     .section{
