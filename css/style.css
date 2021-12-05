@@ -11,8 +11,6 @@
         padding: 6px;
         position: absolute;
         top: -50px;
-        -webkit-transition: top 1s ease-out;
-        transition: top 1s ease-out;
         z-index: 1;
     }
 
@@ -311,71 +309,13 @@
         margin-right: 16%;
       }
 
-    .benefits_list{
-        display: grid;
-        grid-template-rows: repeat(10, auto);        
-    }
-
-    .one{
-        grid-row-gap: 15px;
+    .one, .three, .five, .seven, .nine{
         background-color:#CFBB99;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
         
     }
 
-    .two{
-        grid-row-gap: 15px;
-        background-color: #FFF0D6;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-    }
-    .three{
-        grid-row-gap: 15px;
-        background-color:#CFBB99;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-        
-    }
-
-    .four{
-        grid-row-gap: 15px;
-        background-color: #FFF0D6;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-    }
-
-    .five{
-        grid-row-gap: 15px;
-        background-color:#CFBB99;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-        
-    }
-
-    .six{
-        grid-row-gap: 15px;
-        background-color: #FFF0D6;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-    }
-
-    .seven{
-        grid-row-gap: 15px;
-        background-color:#CFBB99;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-        
-    }
-
-    .eight{
-        grid-row-gap: 15px;
-        background-color: #FFF0D6;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-    }
-
-    .nine{
-        grid-row-gap: 15px;
-        background-color:#CFBB99;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-        
-    }
-
-    .ten{
-        grid-row-gap: 15px;
+    .two, .four, .six, .eight, .ten{
         background-color: #FFF0D6;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
@@ -421,9 +361,47 @@
     }
 
     .faqsdivider{
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .sec1{
+        grid-row: 1 / span 1;
+        grid-column: 1 / span 2;
+        margin: auto;
         background-color:#FFF0D6;
+        border: solid 2px #59290D;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
+
+    .sec2{
+        grid-row: 2 / span 1;
+        grid-column: 1 / span 2;
+        margin: auto;
+        background-color:#CFBB99;
+        border: solid 2px #59290D;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+
+    .sec3{
+        grid-row: 3 / span 1;
+        grid-column: 1 / span 2;
+        margin: auto;
+        background-color:#FFF0D6;
+        border: solid 2px #59290D;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+
+    .sec4{
+        grid-row: 4 / span 1;
+        grid-column: 1 / span 2;
+        margin: auto;
+        background-color:#CFBB99;
+        border: solid 2px #59290D;
+        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
+    }
+
 }
 
 @media only screen and (min-width:768px){
@@ -440,130 +418,67 @@
     }
 
     .skip a{
-        background: white;
-        left: 0;
-        padding: 6px;
-        position: absolute;
-        top: -50px;
         -webkit-transition: top 1s ease-out;
         transition: top 1s ease-out;
         z-index: 1;
     }
-    .skip a:focus{
-        top:20px; 
-        color: #01411C;
-        text-decoration-style: solid;
-    }
 
     #navbar li{
-        padding-top: 10px;
-        padding-right: 15px;
-        color:#01411C;
-        width: 23%;
-        text-align: center;
         font-size:20px;
     }
 
-    #navbar li a{
-        color:#01411C;
-        width: 23%;
-        text-align: center;
-    }
-
-    .slideshow{
-        padding-top:30px;
-        overflow: hidden;
-        height: 500px;
-    }
-
     .slide {
-        float: left;
         height: 500px;
-        background:#D0F0C0;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
       .left{
-        color: #4B6F44;
-        position: absolute;
         top: 125%;
         left: 1%;
-        font-size: 50px;
       }
 
       .right{
-        color: #4B6F44;
-        position: absolute;
         top: 125%;
         left: 94%;
-        font-size: 50px;
       }
 
       .oritext{
         margin-left: 60px;
         margin-right: 60px;
     }
-
     .slideshow1{
-        padding-top:30px;
-        overflow: hidden;
         height: 600px;
         width: 100%;
     }
 
     .slide1 {
-        float: left;
         height: 600px;
         width: 100%;
-        background:#D0F0C0;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-      }
-
-      .left_ben{
-        color: #4B6F44;
-        position: absolute;
-        top: 70%;
-        left: 3%;
-        font-size: 50px;
-      }
-
-      .right_ben{
-        color: #4B6F44;
-        position: absolute;
-        top: 70%;
-        left: 85%;
-        font-size: 50px;
-      }
-
-      .teas{
-        padding:20px;
-        font-size:25px;
-        text-align: center;
-      }
-
-      .teapic{
-        padding-top: 20px;
-        margin-left: 18%;
-        margin-right: 18%;
-      }
-
-      .whiteteapic{
-        padding-top: 20px;
-        margin-left: 8%;
-        margin-right: 8%;
-      }
-
-      .chaiteapic{
-        padding-top: 20px;
-        margin-left: 23%;
-        margin-right: 23%;
       }
 
       .matchateapic{
-        padding-top: 20px;
         margin-left: 15%;
         margin-right: 15%;
       }
+
+      .faqsdivider{
+        grid-template-columns: 33% 33% 33%;
+    }
+      
+    .sec1, .sec3{
+        grid-column: 1 / span 2;
+        align-items: center;
+    }
+
+    .sec2, .sec4{
+        grid-column: 2 / span 2;
+        align-items: center;
+    }
+
+    #teaaesthetic, #variety, #caffeine, #loose{
+        padding: 10px;  
+        width: 100%;
+        
+    }
 
 }
 
