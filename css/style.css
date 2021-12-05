@@ -220,7 +220,7 @@
         font-size: 17px;
     }
 
-    #letters{
+    .letters{
         font-size: 20px;
         text-align: center;
     }
@@ -241,13 +241,13 @@
         
     }
 
-    #letters a{
+    .letters a{
         padding:10px;
         text-align:center;
         color:#01411C;
     }
 
-    #letters a:visited{
+    .letters a:visited{
         padding:10px;
         text-align:center;
         color:#01411C;
@@ -482,7 +482,7 @@
         font-size: 20px;
     }
 
-    #letters{
+    .letters{
         font-size: 20px;
         text-align: center;
     }
@@ -630,9 +630,8 @@
         font-size: 30px;
     }
 
-    #letters{
+    .letters{
         font-size: 30px;
-        text-align: center;
     }
 
     .alphdef{
