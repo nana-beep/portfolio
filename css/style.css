@@ -14,7 +14,6 @@
         z-index: 1;
     }
 
-      
     .skip a:focus{
         top:20px; 
         color: #01411C;
@@ -154,13 +153,15 @@
     .slideshow{
         padding-top:30px;
         overflow: hidden;
-        height: 830px;
+        height: 970px;
+        width: 100%;
     }
 
     .slide {
         padding-top:10px;
         float: left;
-        height: 830px;
+        height: 970px;
+        width: 100%;
         background:#D0F0C0;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
       }
@@ -169,7 +170,7 @@
         color: #4B6F44;
         position: absolute;
         top: 120%;
-        left: 3%;
+        left: 2%;
         font-size:50px;
       }
 
@@ -177,7 +178,7 @@
         color: #4B6F44;
         position: absolute;
         top: 120%;
-        left: 85%;
+        left: 90%;
         font-size: 50px;
         
       }
@@ -404,7 +405,7 @@
 
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:600px){
 
     #home{
         font-size:20px;
@@ -428,7 +429,11 @@
     }
 
     .slide {
-        height: 500px;
+        height: 550px;
+    }
+
+    .slideshow{
+        height: 550px;
     }
 
       .left{
@@ -483,4 +488,5 @@
 }
 
 @media only screen and (min-width:1366px){
+
 }
