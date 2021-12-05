@@ -116,7 +116,7 @@
 
     #teadef{
         font-size: 25px;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
     }
 
@@ -128,7 +128,8 @@
 
     #defs{
         margin:auto;
-        padding:30px;
+        padding-left:30px;
+        padding-bottom: 10px;
         list-style-type: square;
     }
  
@@ -154,14 +155,12 @@
         padding-top:30px;
         overflow: hidden;
         height: 970px;
-        width: 100%;
     }
 
     .slide {
         padding-top:10px;
         float: left;
         height: 970px;
-        width: 100%;
         background:#D0F0C0;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
       }
@@ -247,8 +246,12 @@
         color:#01411C;
     }
   
-    #teaassort{
-        padding:20px 10px 10px 10px;
+    .teaassort{
+        background: url('../images/teaassortment.jpg');
+        background-attachment: fixed;
+        background-position: center; /* Parallax effect */
+        background-size: cover; /* Parallax effect */
+        height: 700px; /* Parallax effect */
     }
 
     .slideshow1{
@@ -403,6 +406,12 @@
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
+    #teaaesthetic, #variety, #caffeine, #loose{
+        padding: 10px;  
+        width: 100%;
+        
+    }
+
 }
 
 @media only screen and (min-width:600px){
@@ -479,14 +488,105 @@
         align-items: center;
     }
 
-    #teaaesthetic, #variety, #caffeine, #loose{
-        padding: 10px;  
-        width: 100%;
-        
-    }
+ 
 
 }
 
 @media only screen and (min-width:1366px){
+    #mainspace{
+        height: 800px;
+    }
+
+    #headerh{
+        font-size: 100px;
+    }
+
+    #headerp{
+        font-size: 55px;
+    }
+
+    .skip a{
+        font-size: 30px;
+    }
+
+    #home{
+        font-size: 30px;
+    }
+
+    #navbar li{
+        font-size: 30px;
+    }
+
+    #skip{
+        font-size: 40px;
+    }
+
+    #teadef{
+        font-size: 30px;
+    }
+
+    #def, .blurred-back{
+        font-size: 20px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+
+
+
+    .left{
+        top: 185%;
+        left: 0.5%;
+    }
+
+    .right{
+        top: 185%;
+        left: 97%;
+    }
+
+    .slide-number{
+        font-size: 35px;
+    }
+
+    .oritext{
+        font-size: 25px;
+    }
+
+    .oritexttitle{
+        font-size: 30px;
+    }
+
+    .introtext{
+        font-size: 30px;
+    }
+
+    #letters{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .alphdef{
+        font-size:20px;
+    }
+
+    .backtotop{
+        font-size:20px;
+    }
+
+    .terms{
+        padding: 10px;
+        font-size:40px;
+    }
+
+    #teaimg{
+        display: block;
+        margin: auto;
+        width: 25%;
+    }
 
 }
