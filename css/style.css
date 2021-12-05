@@ -217,6 +217,25 @@
 
     .introtext{
         padding:10px;
+        font-size: 17px;
+    }
+
+    #letters{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .alphdef{
+        font-size:10x;
+    }
+
+    .backtotop{
+        font-size: 15px;
+    }
+
+    .terms{
+        padding: 10px;
+        font-size:30px;
     }
 
     #letters a{
@@ -257,12 +276,12 @@
     .slideshow1{
         padding-top:30px;
         overflow: hidden;
-        height: 500px;
+        height: 350px;
     }
 
     .slide1 {
         float: left;
-        height: 500px;
+        height: 350px;
         background:#D0F0C0;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
       }
@@ -291,36 +310,28 @@
 
       .teapic{
         padding-top: 20px;
-        margin-left: 18%;
-        margin-right:18%;
+        display: block;
+        margin: auto;
+        position: absolute;
       }
 
-      .whiteteapic{
-        padding-top: 20px;
-        margin-left: 8%;
-        margin-right: 8%;
-      }
-
-      .chaiteapic{
-        padding-top: 20px;
-        margin-left: 23%;
-        margin-right: 23%;
-      }
-
-      .matchateapic{
-        padding-top: 20px;
-        margin-left: 16%;
-        margin-right: 16%;
-      }
+    .benefits_list{
+        display: grid;
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: repeat(2, auto);
+    }
 
     .one, .three, .five, .seven, .nine{
         background-color:#CFBB99;
+        padding: 10px;
+        grid-column: 1 / span 2;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
-        
     }
 
     .two, .four, .six, .eight, .ten{
         background-color: #FFF0D6;
+        padding: 10px;
+        grid-column: 1 / span 2;
         clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
@@ -408,13 +419,12 @@
 
     #teaaesthetic, #variety, #caffeine, #loose{
         padding: 10px;  
-        width: 100%;
-        
+        width: 100%;   
     }
 
 }
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:768px){
 
     #home{
         font-size:20px;
@@ -459,19 +469,38 @@
         margin-left: 60px;
         margin-right: 60px;
     }
+
+    .introtext{
+        font-size: 20px;
+    }
+
+    #letters{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .alphdef{
+        font-size:15x;
+    }
+
+    .backtotop{
+        font-size:15px;
+    }
+
+    .terms{
+        padding: 10px;
+        font-size:30px;
+    }
+
+
     .slideshow1{
-        height: 600px;
         width: 100%;
+        height: 500px;
     }
 
     .slide1 {
-        height: 600px;
         width: 100%;
-      }
-
-      .matchateapic{
-        margin-left: 15%;
-        margin-right: 15%;
+        height: 500px;
       }
 
       .faqsdivider{
@@ -488,7 +517,23 @@
         align-items: center;
     }
 
- 
+    .one, .three, .five, .seven, .nine{
+        grid-column: 1 / span 1;
+        padding: 20px;
+    }
+
+    .two, .four, .six, .eight, .ten{
+        grid-column: 2 / span 1;
+        padding: 20px;
+    }
+
+    .one, .four, .five, .eight, .nine{
+        background-color:#CFBB99;
+    }
+
+    .two, .three, .six, .seven, .ten{
+        background-color: #FFF0D6;
+    }
 
 }
 
@@ -587,6 +632,40 @@
         display: block;
         margin: auto;
         width: 25%;
+    }
+
+    .left_ben{
+        top: 90%;
+        left: 10%;
+    }
+
+    .right_ben{
+        top: 90%;
+        left: 85%;
+    }
+
+    .slide1{
+        height: 800px;
+    }
+
+    .slideshow1{
+        height: 800px;
+    }
+
+    .section{
+        font-size: 30px;
+    }
+
+    .pritea{
+        font-size: 20px;
+    }
+
+    .captions{
+        font-size: 25px;
+    }
+
+    .description{
+        font-size: 20px;
     }
 
 }
