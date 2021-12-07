@@ -314,7 +314,7 @@
         width: 40%;
       }
 
-      #teaimg{
+      .teaimg{
         display: block;
         margin: auto;
         width: 70%;
@@ -448,7 +448,7 @@
         z-index: 1;
     }
 
-    #teaimg{
+    .teaimg{
         width: 50%;
     }
 
@@ -647,7 +647,7 @@
         font-size:40px;
     }
 
-    #teaimg{
+    .teaimg{
         width: 25%;
     }
     
