@@ -269,6 +269,7 @@
         background-position: center; /* Parallax effect */
         background-size: cover; /* Parallax effect */
         height: 700px; /* Parallax effect */
+        color: transparent;
     }
 
     .slideshow1{
