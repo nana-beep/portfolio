@@ -192,6 +192,8 @@
         text-align: center;
         padding: 10px;
         color: #4B6F44;
+        animation-duration: 2s;
+        animation-name: slidein;
     }
 
     .oritext{
@@ -201,13 +203,35 @@
         margin-right: 50px;
         color: 	#4B6F44;
         text-align: left;
+        animation-duration: 2s;
+        animation-name: slidein;
     }
 
     .oritexttitle{
         text-align: center;
         text-decoration: underline;
         color: 	#4B6F44;
+        animation-duration: 2s;
+        animation-name: slidein;
     }
+
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        75% {
+          font-size: 300%;
+          margin-left: 25%;
+          width: 150%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
 
     #mapi{
         filter: sepia(100%);
@@ -325,19 +349,21 @@
         grid-template-rows: repeat(5, auto);
         grid-template-columns: repeat(2, auto);
     }
+ 
+    .num{
+        text-align: center;
+        size: 30px;
+    }
 
-    .one, .three, .five, .seven, .nine{
+    .one .three, .five, .seven, .nine{
         background-color:#CFBB99;
-        padding: 10px;
         grid-column: 1 / span 2;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
     .two, .four, .six, .eight, .ten{
         background-color: #FFF0D6;
         padding: 10px;
         grid-column: 1 / span 2;
-        clip-path:polygon(0% 5%, 5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%);
     }
 
     .section{
@@ -352,7 +378,7 @@
         text-align: center;
     }
 
-    .captions{
+    .caption{
         font-size:20px;
         text-align:center;
     }
@@ -680,7 +706,7 @@
         font-size: 20px;
     }
 
-    .captions{
+    .caption{
         font-size: 25px;
     }
 
