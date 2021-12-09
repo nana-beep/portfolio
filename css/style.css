@@ -2,7 +2,7 @@
 @media only screen and (min-width: 320px){
     body{
         background-color: Ivory;
-        font-family:'Titillium Web', Courier, monospace
+        font-family: monospace,'Titillium Web', Courier
     }
 
     .skip a{
@@ -509,6 +509,7 @@
         padding: 10px;  
         width: 100%;   
     }
+    
 
 }
 
