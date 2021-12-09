@@ -628,12 +628,12 @@
     }
 
     .description{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .description1{
         padding-top: 20px;
-        font-size: 15px;
+        font-size: 13.5px;
     }
 
     .teapic{
@@ -804,7 +804,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .slide-number,.oritext,.oritexttitle{
+    .slide-number, .oritext, .oritexttitle{
       animation: none;
     }
+     
   }
