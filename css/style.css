@@ -192,7 +192,7 @@
         text-align: center;
         padding: 10px;
         color: #4B6F44;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-name: slidein;
     }
 
@@ -203,7 +203,7 @@
         margin-right: 50px;
         color: 	#4B6F44;
         text-align: left;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-name: slidein;
     }
 
@@ -211,7 +211,7 @@
         text-align: center;
         text-decoration: underline;
         color: 	#4B6F44;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-name: slidein;
     }
 
@@ -321,7 +321,7 @@
         color: #4B6F44;
         position: absolute;
         top: 70%;
-        left: 90%;
+        left: 85%;
         font-size: 50px;
       }
 
@@ -344,27 +344,74 @@
         width: 70%;
     }
 
-    .benefits_list{
-        display: grid;
-        grid-template-rows: repeat(5, auto);
-        grid-template-columns: repeat(2, auto);
-    }
- 
     .num{
         text-align: center;
         size: 30px;
     }
 
-    .one .three, .five, .seven, .nine{
-        background-color:#CFBB99;
-        grid-column: 1 / span 2;
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-items: center;
+        align-items: center;
+        grid-gap: 10px;
     }
+    
+    .flip_card{
+        grid-column: 1 / span 2;
+        border-style: hidden;
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px; 
+      }
 
-    .two, .four, .six, .eight, .ten{
-        background-color: #FFF0D6;
-        padding: 10px;
+      .flip_card1 {
         grid-column: 1 / span 2;
-    }
+        border-style: hidden;
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px; 
+      }
+      
+      .flip_card_inner, .flip_card_inner1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+      }
+      
+      .flip_card:hover .flip_card_inner,
+      .flip_card:focus-within .flip_card_inner,
+      .flip_card:active .flip_card_inner,
+      .flip_card:focus .flip_card_inner,
+      .flip_card1:hover .flip_card_inner1,
+      .flip_card1:focus-within .flip_card_inner1,
+      .flip_card1:active .flip_card_inner1,
+      .flip_card1:focus .flip_card_inner1 {
+        transform: rotateY(180deg);
+      }
+      
+      .flip_card_front, .flip_card_back,.flip_card_front1, .flip_card_back1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+
+
+      .flip_card_front,.flip_card_front1 {
+        background-color:#CFBB99;
+        color: black;
+      }
+
+      .flip_card_back,.flip_card_back1{
+        transform: rotateY(180deg);
+      }
 
     .section{
         padding:20px 10px 10px 10px;
@@ -378,13 +425,23 @@
         text-align: center;
     }
 
-    .caption{
+    .captions{
         font-size:20px;
         text-align:center;
+        position: relative;
+        top: 25%;
     }
 
     .description{
-        padding:10px;
+        font-size: 15px;
+        text-align:center;
+        position: relative;
+        top: 10%;
+    }
+
+    .description1{
+        padding: 12px;
+        font-size: 11px;
     }
 
     .questions{
@@ -549,23 +606,33 @@
         grid-column: 2 / span 2;
         align-items: center;
     }
+    .grid{
+        grid-gap: 15px;
+    }
 
-    .one, .three, .five, .seven, .nine{
+    .flip_card {
         grid-column: 1 / span 1;
-        padding: 20px;
-    }
-
-    .two, .four, .six, .eight, .ten{
+        width: 380px;
+        height: 380px;
+      }
+      .flip_card1{
         grid-column: 2 / span 1;
-        padding: 20px;
+        width: 380px;
+        height: 380px;
+      }
+
+      .captions{
+        font-size:40px;
+        top: 25%;
     }
 
-    .one, .four, .five, .eight, .nine{
-        background-color:#CFBB99;
+    .description{
+        font-size: 20px;
     }
 
-    .two, .three, .six, .seven, .ten{
-        background-color: #FFF0D6;
+    .description1{
+        padding-top: 20px;
+        font-size: 15px;
     }
 
     .teapic{
@@ -676,6 +743,25 @@
     .teaimg{
         width: 25%;
     }
+
+    .flip_card, .flip_card1{
+        width: 700px;
+        height: 700px;
+    }
+
+    .captions{
+        size: 50px;
+        top: 40%;
+    }
+
+    .description{
+        size: 30px;
+        top: 40%;
+    }
+
+    .description1{
+        font-size: 25px;
+    }
     
 
     .left_ben{
@@ -715,3 +801,9 @@
     }
 
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .slide-number,.oritext,.oritexttitle{
+      animation: none;
+    }
+  }
