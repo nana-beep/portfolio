@@ -91,30 +91,26 @@
   </div>
   </main>
 
-  <div class="wrapper centered">
-    <article class="letter">
-      <div class="side">
-        <h1>Contact us</h1>
-        <p>
-          <textarea placeholder="Your message"></textarea>
-        </p>
+  <h3>Contact us</h3>
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+          <label for="Name" class="fcf-label">Your name</label>
+          <div class="fcf-input-group">
+              <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+          </div>
+      <div class="fcf-form-group">
+          <label for="Email" class="fcf-label">Your email address</label>
+          <div class="fcf-input-group">
+              <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+          </div>
+      <div class="fcf-form-group">
+          <label for="Message" class="fcf-label">Your message</label>
+          <div class="fcf-input-group">
+              <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+          </div>
       </div>
-      <div class="side">
-        <p>
-          <input type="text" placeholder="Your name" >
-        </p>
-        <p>
-          <input type="email" placeholder="Your email" >
-        </p>
-        <p>
-          <button id="sendLetter">Send</button>
-        </p>
+      <div class="fcf-form-group">
+          <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
       </div>
-    </article>
-    <div class="envelope front"></div>
-    <div class="envelope back"></div>
-  </div>
-  <p class="result-message centered">Thank you for your message</p>
 
    <footer>
     <p>&copy; Jina Kim - SI 339 Portfolio Fall 2021</p>
