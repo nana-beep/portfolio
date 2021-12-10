@@ -192,7 +192,7 @@
         padding: 10px;
         color: #4B6F44;
         animation-duration: 1s;
-        animation-name: slidein;
+        animation-name: slide-in;
     }
 
     .oritext{
@@ -203,7 +203,7 @@
         color: 	#4B6F44;
         text-align: left;
         animation-duration: 1s;
-        animation-name: slidein;
+        animation-name: slide-in;
     }
 
     .oritexttitle{
@@ -211,10 +211,10 @@
         text-decoration: underline;
         color: 	#4B6F44;
         animation-duration: 1s;
-        animation-name: slidein;
+        animation-name: slide-in;
     }
 
-    @keyframes slidein {
+    @keyframes slide-in {
         from {
           margin-left: 100%;
           width: 300%;
@@ -394,7 +394,7 @@
         transform: rotateY(180deg);
       }
       
-      .flip_card_front, .flip_card_back,.flip_card_front1, .flip_card_back1{
+      .front, .back,.front1, .back1{
         position: absolute;
         width: 100%;
         height: 100%;
@@ -403,12 +403,12 @@
       }
 
 
-      .flip_card_front,.flip_card_front1 {
+      .front,.front1 {
         background-color:#CFBB99;
         color: black;
       }
 
-      .flip_card_back,.flip_card_back1{
+      .back,.back1{
         transform: rotateY(180deg);
       }
 
@@ -518,19 +518,19 @@
         background-color: #CFBB99;
     }
 
-    .fcf-form-class{
+    .form-class{
         width: 250px;
         margin: auto;
         background-color: #CFBB99;
         padding: 30px;
     }
 
-    .fcf-input-group, .fcf-form-control, .fcf-label, .fcf-form-group {
+    .input-group, .form-control, .label, .form-group {
         width: 200px;
         margin: auto;
     }
 
-    #fcf-button{
+    #button{
         font-size: 20px;
         background-color: #4B6F44;
         color: white;
@@ -680,16 +680,16 @@
           width:600px;
       }
 
-      .fcf-form-class{
+      .form-class{
         width: 600px;
         padding: 50px;
     }
 
-    .fcf-input-group, .fcf-form-control, .fcf-label, .fcf-form-group {
+    .input-group, .form-control, .label, .form-group {
         width: 500px;
     }
 
-    #fcf-button{
+    #button{
         font-size: 25px;
     }
 
@@ -849,16 +849,16 @@
         width:800px;
     }
 
-    .fcf-form-class{
+    .form-class{
       width: 800px;
       padding: 50px;
   }
 
-  .fcf-input-group, .fcf-form-control, .fcf-label, .fcf-form-group {
+  .input-group, .form-control, .label, .form-group {
       width: 700px;
   }
 
-  #fcf-button{
+  #button{
       font-size: 25px;
   }
 }
